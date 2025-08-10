@@ -1,0 +1,34 @@
+ /$$$$$$$                            /$$       /$$      /$$          
+| $$__  $$                          | $$      | $$$    /$$$          
+| $$  \ $$  /$$$$$$   /$$$$$$   /$$$$$$$      | $$$$  /$$$$  /$$$$$$ 
+| $$$$$$$/ /$$__  $$ |____  $$ /$$__  $$      | $$ $$/$$ $$ /$$__  $$
+| $$__  $$| $$$$$$$$  /$$$$$$$| $$  | $$      | $$  $$$| $$| $$$$$$$$
+| $$  \ $$| $$_____/ /$$__  $$| $$  | $$      | $$\  $ | $$| $$_____/
+| $$  | $$|  $$$$$$$|  $$$$$$$|  $$$$$$$      | $$ \/  | $$|  $$$$$$$
+|__/  |__/ \_______/ \_______/ \_______/      |__/     |__/ \_______/
+                                                                     
+                                                                     
+                                                                     
+L2W (Linux to Windows)
+
+Description:
+L2W maps familiar Linux commands to their Windows equivalents.
+You enter a Linux command, and the script executes the corresponding Windows command.
+Arguments (flags) correspond to Windows syntax — full support for Linux flags is not implemented,
+as this would require a full-fledged emulator. This tool is intended for entertainment purposes only.
+
+Usage
+1. Run L2W.bat
+2. Enter Linux commands in the window that appears 
+3. To display the available commands, enter: help
+
+Supported commands
+ls, pwd, cd, clear, cat, touch, mkdir, rmdir, rm, mv, cp, tree, stat, find, findstr,
+echo, whoami, hostname, ver, date, time, shutdown, reboot, logout, tasklist, taskkill,
+chdir, attrib, fc, comp, type, more, pause, set, systeminfo, sc, sfc, chkntfs, chkdsk,
+diskpart, label, path, prompt, title, help, tar, icacls, cacls, ip addr, ping,
+traceroute, netstat, route
+
+Notes
+Does not support flags for Linux
+
